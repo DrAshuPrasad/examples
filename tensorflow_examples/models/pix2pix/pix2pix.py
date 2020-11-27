@@ -500,7 +500,7 @@ def main(epochs, enable_function, path, buffer_size, batch_size):
       os.path.join(path_to_folder, 'test/*.jpg'),
       buffer_size, batch_size)
   checkpoint_pr = get_checkpoint_prefix()
-  print ('Training ...')
+  print ('Ashutosh Prasad: Training the model ...')
   return pix2pix_object.train(train_dataset, checkpoint_pr)
 
 
